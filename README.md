@@ -15,17 +15,25 @@
     <img src="https://img.shields.io/badge/Project-Page-2f9e6e?style=flat-square" alt="Project Page"></a>
   <a href="#citation">
     <img src="https://img.shields.io/badge/BibTeX-Cite-eaeaea?style=flat-square" alt="BibTeX"></a>
+  <br>
+  <sub>All interactive demos are available on the <a href="https://zhenyangcs.github.io/LongChang-website/">project page</a>.</sub>
 </p>
+
+<br>
 
 <p align="center">
   <a href="https://zhenyangcs.github.io/"><strong>Zhen&nbsp;Yang</strong></a><sup>1</sup> &nbsp;·&nbsp;
   <a href="https://encounter1997.github.io/"><strong>Wen&nbsp;Wang</strong></a><sup>3</sup> &nbsp;·&nbsp;
   <a href="https://xander23333.github.io/"><strong>Xander&nbsp;Xu</strong></a><sup>2*</sup> &nbsp;·&nbsp;
   <a href="https://www.yingcong.me/"><strong>Ying&#8209;Cong&nbsp;Chen</strong></a><sup>1,4*</sup>
-  <br><br>
-  <sup>1</sup>HKUST(GZ) &nbsp;·&nbsp; <sup>2</sup>Alibaba&nbsp;Group &nbsp;·&nbsp; <sup>3</sup>ZJU &nbsp;·&nbsp; <sup>4</sup>HKUST
-  <br>
-  <sub>* Co-corresponding authors</sub>
+</p>
+
+<p align="center">
+  <sup>1</sup>&nbsp;HKUST(GZ) &nbsp;·&nbsp; <sup>2</sup>&nbsp;Alibaba&nbsp;Group &nbsp;·&nbsp; <sup>3</sup>&nbsp;ZJU &nbsp;·&nbsp; <sup>4</sup>&nbsp;HKUST
+</p>
+
+<p align="center">
+  <sub><sup>*</sup> Co-corresponding authors</sub>
 </p>
 
 <p align="center">
@@ -37,8 +45,6 @@
 <h2 align="center">🧭 Overview</h2>
 
 **LongChang** lets LLMs explore MuJoCo worlds with altered physical laws, choose their own questions, and build instruments to test explanations. The framework automates scene construction, exploration, evaluation, and scene evolution. Discoveries must be correct and supported by the explorer's experiments.
-
-All interactive demos are available on the **[project page](https://zhenyangcs.github.io/LongChang-website/)**.
 
 <a id="quick-start"></a>
 
