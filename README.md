@@ -9,11 +9,12 @@
 </p>
 
 <p align="center">
-  <a href="https://zhenyangcs.github.io/LongChang-website/downloads/paper.pdf"><img src="https://img.shields.io/badge/Paper-PDF-4d7f9e?style=flat-square" alt="Read the paper"></a>
-  <a href="https://zhenyangcs.github.io/LongChang-website/"><img src="https://img.shields.io/badge/Project-Page-315e68?style=flat-square" alt="Project page"></a>
-  <a href="#citation"><img src="https://img.shields.io/badge/BibTeX-Cite-eaeaea?style=flat-square" alt="BibTeX citation"></a>
-  <a href="https://zhenyangcs.github.io/LongChang-website/#worlds"><img src="https://img.shields.io/badge/Interactive_Demos-4d8569?style=flat-square" alt="Interactive demos"></a>
-  <a href="#quick-start"><img src="https://img.shields.io/badge/Quick_Start-b08a45?style=flat-square" alt="Quick start"></a>
+  <a href="https://zhenyangcs.github.io/LongChang-website/downloads/paper.pdf">
+    <img src="https://img.shields.io/badge/Paper-PDF-b31b1b?style=flat-square" alt="Paper"></a>
+  <a href="https://zhenyangcs.github.io/LongChang-website/">
+    <img src="https://img.shields.io/badge/Project-Page-2f9e6e?style=flat-square" alt="Project Page"></a>
+  <a href="#citation">
+    <img src="https://img.shields.io/badge/BibTeX-Cite-eaeaea?style=flat-square" alt="BibTeX"></a>
 </p>
 
 <p align="center">
@@ -36,6 +37,8 @@
 <h2 align="center">🧭 Overview</h2>
 
 **LongChang** lets LLMs explore MuJoCo worlds with altered physical laws, choose their own questions, and build instruments to test explanations. The framework automates scene construction, exploration, evaluation, and scene evolution. Discoveries must be correct and supported by the explorer's experiments.
+
+All interactive demos are available on the **[project page](https://zhenyangcs.github.io/LongChang-website/)**.
 
 <a id="quick-start"></a>
 
