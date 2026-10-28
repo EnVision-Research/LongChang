@@ -9,8 +9,8 @@
 </p>
 
 <p align="center">
-  <a href="https://zhenyangcs.github.io/LongChang-website/downloads/paper.pdf">
-    <img src="https://img.shields.io/badge/Paper-PDF-b31b1b?style=flat-square" alt="Paper"></a>
+  <a href="https://arxiv.org/abs/2610.37649">
+    <img src="https://img.shields.io/badge/Paper-arXiv-b31b1b?style=flat-square" alt="Paper"></a>
   <a href="https://zhenyangcs.github.io/LongChang-website/">
     <img src="https://img.shields.io/badge/Project-Page-2f9e6e?style=flat-square" alt="Project Page"></a>
   <a href="#citation">
@@ -94,7 +94,7 @@ Outputs: `session.json` (experiment record), `replay.bin` (replay), `eval.json` 
 @article{yang2026longchang,
   title={Can LLMs Uncover Hidden Physical Laws through Free Exploration?},
   author={Yang, Zhen and Wang, Wen and Xu, Xander and Chen, Ying-Cong},
-  journal={arXiv preprint arXiv:xxx},
+  journal={arXiv preprint arXiv:2610.37649},
   year={2026}
 }
 ```
