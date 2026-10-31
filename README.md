@@ -16,7 +16,7 @@
   <a href="#citation">
     <img src="https://img.shields.io/badge/BibTeX-Cite-eaeaea?style=flat-square" alt="BibTeX"></a>
   <br>
-  <a>
+  <a id="project-page-note">
     <img src=".github/assets/project-page-note.svg" width="520" alt="All interactive demos and detailed experimental results are on the project page.">
   </a>
 </p>
