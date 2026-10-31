@@ -15,11 +15,9 @@
     <img src="https://img.shields.io/badge/Project-Page-2f9e6e?style=flat-square" alt="Project Page"></a>
   <a href="#citation">
     <img src="https://img.shields.io/badge/BibTeX-Cite-eaeaea?style=flat-square" alt="BibTeX"></a>
-</p>
-
-<p align="center">
+  <br>
   <a href="https://zhenyangcs.github.io/LongChang-website/">
-    <img src=".github/assets/project-page-banner.svg" width="700" alt="All interactive demos and detailed experimental results are available on the project page.">
+    <img src=".github/assets/project-page-banner.svg" width="540" alt="All interactive demos and detailed experimental results are available on the project page.">
   </a>
 </p>
 

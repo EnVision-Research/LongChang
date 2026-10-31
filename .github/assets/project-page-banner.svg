@@ -1,8 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="700" height="44" viewBox="0 0 700 44" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="76" viewBox="0 0 540 76" role="img" aria-labelledby="title desc">
   <title id="title">All interactive demos and detailed experimental results are available on the project page.</title>
-  <desc id="desc">A centered, clickable notice linking to the LongChang project page.</desc>
-  <rect x="0.5" y="0.5" width="699" height="43" rx="8" fill="#f0fdf4" stroke="#2f9e6e" stroke-width="1"/>
-  <g text-anchor="middle" font-family="Arial, Helvetica, sans-serif" fill="#14532d" font-size="15">
-    <text x="350" y="27">All interactive demos and detailed experimental results are available on the <tspan font-weight="700" text-decoration="underline">project page</tspan>.</text>
+  <desc id="desc">A speech bubble pointing to the Project Page badge above.</desc>
+  <path d="M10.5 12.5 H259.5 L270 1 L280.5 12.5 H529.5 A10 10 0 0 1 539.5 22.5 V65.5 A10 10 0 0 1 529.5 75.5 H10.5 A10 10 0 0 1 0.5 65.5 V22.5 A10 10 0 0 1 10.5 12.5 Z" fill="#f0fdf4" stroke="#8bc6a8" stroke-width="1" stroke-linejoin="round"/>
+  <g text-anchor="middle" font-family="Arial, Helvetica, sans-serif" fill="#14532d" font-size="16" font-weight="400">
+    <text x="270" y="38">All interactive demos and detailed experimental results</text>
+    <text x="270" y="60">are available on the project page.</text>
   </g>
 </svg>
