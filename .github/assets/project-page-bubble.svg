@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="64" viewBox="0 0 480 64" role="img" aria-labelledby="title desc">
-  <title id="title">All interactive demos and detailed experimental results are available on the project page.</title>
-  <desc id="desc">A speech bubble pointing to the Project Page badge above.</desc>
-  <path d="M9.5 10.5 H230 L240 1 L250 10.5 H470.5 A9 9 0 0 1 479.5 19.5 V54.5 A9 9 0 0 1 470.5 63.5 H9.5 A9 9 0 0 1 0.5 54.5 V19.5 A9 9 0 0 1 9.5 10.5 Z" fill="#f0fdf4" stroke="#8bc6a8" stroke-width="1" stroke-linejoin="round"/>
-  <g text-anchor="middle" font-family="Arial, Helvetica, sans-serif" fill="#14532d" font-size="14" font-weight="400">
-    <text x="240" y="32">All interactive demos and detailed experimental results</text>
-    <text x="240" y="50">are available on the project page.</text>
-  </g>
-</svg>
