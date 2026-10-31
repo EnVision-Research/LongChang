@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="64" viewBox="0 0 540 64" role="img" aria-labelledby="title desc">
+  <title id="title">All interactive demos and detailed experimental results are on the project page.</title>
+  <desc id="desc">A rounded speech bubble with a curved tail pointing to the Project Page badge above.</desc>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="0" y2="1">
+      <stop class="surface-top" stop-color="#ffffff"/>
+      <stop class="surface-bottom" offset="1" stop-color="#eef7f2"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-15%" width="110%" height="135%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="2" stdDeviation="1.5" flood-color="#132c20" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <style>
+    @media (prefers-color-scheme: dark) {
+      .surface-top { stop-color: #31483e; }
+      .surface-bottom { stop-color: #25362e; }
+      .bubble { stroke: #739782; }
+      .label { fill: #d3e5d9; }
+    }
+  </style>
+  <path class="bubble" d="M26 22 H258 C264 22 269 12 270 3 C273 14 279 20 292 22 H514 C525 22 534 30 534 40 C534 50 525 58 514 58 H26 C15 58 6 50 6 40 C6 30 15 22 26 22 Z" fill="url(#surface)" stroke="#9abca8" stroke-width="1.2" stroke-linejoin="round" filter="url(#shadow)"/>
+  <text class="label" x="270" y="44" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" fill="#315943" font-size="13" font-weight="400">All interactive demos and detailed experimental results are on the project page.</text>
+</svg>
