@@ -15,9 +15,10 @@
     <img src="https://img.shields.io/badge/Project-Page-2f9e6e?style=flat-square" alt="Project Page"></a>
   <a href="#citation">
     <img src="https://img.shields.io/badge/BibTeX-Cite-eaeaea?style=flat-square" alt="BibTeX"></a>
-  <br>
-  <sub>All interactive demos are available on the <a href="https://zhenyangcs.github.io/LongChang-website/">project page</a>.</sub>
 </p>
+
+> [!IMPORTANT]
+> **[Explore all interactive demos and detailed experimental results on the project page →](https://zhenyangcs.github.io/LongChang-website/)**
 
 <br>
 
