@@ -54,7 +54,7 @@
 
 ### 1. Install
 
-Requires **Python 3.12** and the full LongChang codebase (`requirements.txt` and `longchang/`), which is not currently included in this repository.
+Requires **Python 3.12**. Source code is not included in this repository yet.
 
 ```bash
 git clone https://github.com/EnVision-Research/LongChang.git
@@ -67,53 +67,26 @@ python -m pip install -r requirements.txt
 
 ### 2. Run
 
-Run from the repository root. Set your OpenAI-compatible endpoint, API key, and model names:
+Run from the repository root with your OpenAI-compatible endpoint, API key, and models:
 
 ```bash
-export BASE_URL="https://your-api-endpoint.example/v1"
-export API_KEY="your-api-key"
-export MODEL="your-explorer-model"
-export JUDGE_MODEL="your-judge-model"
-```
+export BASE_URL="https://your-api-endpoint.example/v1" API_KEY="your-api-key"
+export MODEL="your-explorer-model" JUDGE_MODEL="your-judge-model"
 
-#### Run all 15 scenes
-
-The `models` command uses `longchang/scenes/base_15.json` and includes all 15 scenes by default, unless `SCENES` is set to a subset. The following configuration uses free exploration (`T0`), a budget of 100 interaction turns, and 3 repeats per scene:
-
-```bash
-export MODELS="$MODEL" SCENES=""
-export TELLS=T0 BUDGET=100 REPEATS=3 CONCURRENCY=2
-
-# Preview the full run plan without calling model APIs.
-DRY_RUN=1 OUT_ROOT=runs/benchmark \
-  python longchang/run.py models
-
-# Run the full benchmark and automatically evaluate each run.
-DRY_RUN=0 ALLOW_PAID_API=1 OUT_ROOT=runs/benchmark \
-  python longchang/run.py models
-```
-
-This schedules **45 runs** (15 scenes × 3 repeats), with up to 2 runs in parallel. Evaluation uses `JUDGE_MODEL`; no separate `eval.py` command is needed for batch runs. The preview does not create the output directory. Use a new `OUT_ROOT` for each actual execution.
-
-Per-run results are saved under `runs/benchmark/<scene-id>/<model>/r<repeat>/T0/`. The output root also contains `plan.json`, `summary.json`, an aggregate `eval.json`, and `run_errors.json`.
-
-Without the explicit overrides above, the batch defaults are `TELLS=T1`, `BUDGET=20`, `REPEATS=1`, and `CONCURRENCY=2`. Batch mode reads explorer models from `MODELS`, while single-scene mode uses `MODEL`.
-
-#### Try a single scene
-
-```bash
-python longchang/agent.py \
-  --benchmark longchang/scenes/base_15.json \
-  --scene 07_tile_restitution \
-  --tell T0 --budget 20 \
-  --output runs/first-exploration
-
+python longchang/agent.py --benchmark longchang/scenes/base_15.json \
+  --scene 07_tile_restitution --tell T0 --budget 20 --output runs/first-exploration
 python longchang/eval.py runs/first-exploration
 ```
 
-This example uses a smaller budget of 20 interaction turns. Exploration and evaluation call your model API. Use a new output directory for each run.
+Outputs: `session.json`, `replay.bin`, `eval.json`, and `run.log`. Use a new output directory for each run.
 
-Outputs: `session.json` (experiment record), `replay.bin` (replay), `eval.json` (assessment), and `run.log`.
+All 15 scenes, with automatic evaluation:
+
+```bash
+MODELS="$MODEL" TELLS=T0 BUDGET=100 REPEATS=3 CONCURRENCY=2 \
+  DRY_RUN=0 ALLOW_PAID_API=1 OUT_ROOT=runs/benchmark \
+  python longchang/run.py models longchang/scenes/base_15.json
+```
 
 <a id="citation"></a>
 
