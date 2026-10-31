@@ -17,8 +17,9 @@
     <img src="https://img.shields.io/badge/BibTeX-Cite-eaeaea?style=flat-square" alt="BibTeX"></a>
 </p>
 
-> [!IMPORTANT]
-> **[Explore all interactive demos and detailed experimental results on the project page →](https://zhenyangcs.github.io/LongChang-website/)**
+<h3 align="center">
+  <a href="https://zhenyangcs.github.io/LongChang-website/">All Interactive Demos &amp; Detailed Experimental Results →</a>
+</h3>
 
 <br>
 
