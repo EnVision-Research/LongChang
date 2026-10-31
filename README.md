@@ -19,7 +19,7 @@
 
 <p align="center">
   <a href="https://zhenyangcs.github.io/LongChang-website/">
-    <img src=".github/assets/project-page-banner.svg" width="560" alt="All interactive demos and detailed experimental results — visit the project page">
+    <img src=".github/assets/project-page-banner.svg" width="560" alt="All interactive demos and detailed experimental results are available on the project page.">
   </a>
 </p>
 

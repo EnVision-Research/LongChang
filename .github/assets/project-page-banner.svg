@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="560" height="124" viewBox="0 0 560 124" role="img" aria-labelledby="title desc">
-  <title id="title">All Interactive Demos &amp; Detailed Experimental Results</title>
-  <desc id="desc">Visit the LongChang project page for all interactive demos and detailed experimental results.</desc>
+  <title id="title">All interactive demos and detailed experimental results are available on the project page.</title>
+  <desc id="desc">A centered, clickable notice linking to the LongChang project page.</desc>
   <rect x="1" y="1" width="558" height="122" rx="14" fill="#f0fdf4" stroke="#2f9e6e" stroke-width="2"/>
-  <g text-anchor="middle" font-family="Arial, Helvetica, sans-serif">
-    <text x="280" y="38" fill="#14532d" font-size="24" font-weight="700">All Interactive Demos &amp;</text>
-    <text x="280" y="67" fill="#14532d" font-size="24" font-weight="700">Detailed Experimental Results</text>
-    <text x="280" y="101" fill="#207651" font-size="16" font-weight="600">Visit the project page →</text>
+  <g text-anchor="middle" font-family="Arial, Helvetica, sans-serif" fill="#14532d" font-size="22">
+    <text x="280" y="37">All interactive demos and</text>
+    <text x="280" y="66">detailed experimental results</text>
+    <text x="280" y="95">are available on the <tspan font-weight="700" text-decoration="underline">project page</tspan>.</text>
   </g>
 </svg>
